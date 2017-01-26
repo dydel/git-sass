@@ -11,6 +11,8 @@ body {
   color: #900; }
 
 div {
+  color: yellow;
+  padding: 10px;
   border: 1px solid #900;
   -moz-transition: 0.7s;
   -o-transition: 0.7s;
