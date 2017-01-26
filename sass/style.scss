@@ -1,0 +1,11 @@
+$background-color: #333;
+$main-color: #900;
+
+body {
+	background-color: $background-color;
+	color: $main-color;
+	}
+
+div {
+	border: 1px solid $main-color;
+	}
