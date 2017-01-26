@@ -11,4 +11,8 @@ body {
   color: #900; }
 
 div {
-  border: 1px solid #900; }
+  border: 1px solid #900;
+  -moz-transition: 0.7s;
+  -o-transition: 0.7s;
+  -webkit-transition: 0.7s;
+  transition: 0.7s; }

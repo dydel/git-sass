@@ -1,4 +1,5 @@
 @import 'reset';
+@import 'mixin';
 
 $background-color: #333;
 $main-color: #900;
@@ -10,4 +11,5 @@ body {
 
 div {
 	border: 1px solid $main-color;
+	@include prefixed-transition(.7s);
 	}
